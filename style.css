@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
+}
+nav{
+    background: black;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul{
+    float: left;
+    padding-left: 80px;
+    font-size: 15px;
+    
+}
+
+.nav-btn
+{
+    float: right;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 40px;
+    border: 2px solid white ;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    color: white;
+}
+
+.nav-btn:hover{
+    background-color:  white;
+    outline: none;
+    color: black;
+    cursor: pointer ;
+    
+}
+nav ul li{
+    color: whitesmoke;
+    display: inline-block;
+    line-height: 65px;
+    padding: 0px 15px;
+    letter-spacing: 0.5px;
+    position: relative;
+    left: 5px;
+    
+}
+
+.top
+{
+    color: whitesmoke;
+}
+.top:hover{
+    color: wheat;
+    transition: .5s;
+}
+
+.bg
+{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://www.hmchealthworks.com/wp-content/uploads/2020/03/AdobeStock_324681273.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.glry
+{
+    width: 100%;
+    height: 270px;
+    /* background-color: green; */
+}
+
+.glry-txt
+{
+    font-size: 80px;
+    color: Black;
+    font-family: 'Roboto', Sans-serif;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.line
+{
+    width: 100px;
+    height: 15px;
+    background-color: black;
+    margin-top: 20px;
+    Margin-left: 70px;
+}
+
+.para
+{
+    margin-top: 25px;
+    Margin-left: 70px;
+    color: black;
+    font-family: 'Roboto', Sans-serif;
+    line-height: 23px;
+}
+
+.glry-div
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+}
+
+.glry-img
+{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin-left: 70px;
+    float: left;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.glry-img img
+{
+    width: 300px;
+    margin: 50px 0px 0px 20px;
+
+}
+
+.glry-img h2
+{
+    text-align: center;
+    font-family: 'Roboto', Sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+
+img:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.footer
+{
+    width: 100%;
+    height: 380px;
+    background-color: black;
+}
+
+.tbl
+{
+    width: 160px;
+    height: 300px;
+    margin-left: 50px;
+    float: left;
+}
+
+.tbl tr th
+{
+    font-size: 35px;
+    font-family: 'Roboto', Sans-serif;
+    padding-top: 50px;
+    color: white;
+}
+
+.tbl tr td
+{
+    font-size: 20px;
+    font-family: 'Roboto', Sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.tbl tr td:hover
+{
+    transform: scale(1.1) translateX(3px);
+}
+
+.line-btm
+{
+    width: 3px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 25px 0px 0px 30px;
+}
+
+.subs
+{
+    width: 350px;
+    height: 350px;
+    /* background-color: red; */
+    float: left;
+    margin: 0px 0px 0px 80px;
+    color: black;
+}
+h2
+{
+    font-size: 35px;
+    font-family: 'Roboto', Sans-serif;
+    padding-top: 50px;
+    color: white;   
+}
+.btm-frm input
+{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'Roboto', Sans-serif;
+    outline: none;
+}
+
+.btn
+{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: 'Roboto', Sans-serif;
+    font-size: 20px;
+    border-radius: 0px;
+    outline: none;
+    border: none; 
+    color: black;
+}
+
+.btn:hover
+{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+.sm-icon
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(10,10,10);
+}
+
+.sm-icon p
+{
+    width: 60%;
+    height: 20px;
+    /* background-color: aquamarine; */
+    font-family: 'Roboto', Sans-serif;
+    font-size: 18px;
+    padding: 40px 0px 0px 0px;
+    color: rgb(40, 40, 40);
+    float: left;
+    margin-left: 150px;
+}
+
+.social-icon 
+{
+    padding: 20px 0px 0px 0px;
+}
+
+.social-icon img
+{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin: 10px 0px 0px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.social-icon img:hover
+{
+    transform: scale(1.2);
+    transition: 0s;
+    cursor: pointer;
+}
